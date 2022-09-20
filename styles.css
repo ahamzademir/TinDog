@@ -1,0 +1,184 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 70px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* NAV BAR */
+
+.navbar-brand {
+  font: ubuntu;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 2% 7%;
+}
+
+/* TITLE */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cont-title {
+  background-color: #ff4c68;
+}
+
+.row-title {
+  width: 100%;
+}
+
+.download-button {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.img-phone {
+  position: absolute;
+  transform: rotate(25deg);
+}
+
+/*FEATURE SECTION*/
+
+#features {
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-page {
+  text-align: center;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 10px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+em {
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 100px;
+}
+
+/* PRESS */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.img-press {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* PRICING */
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.row-pricing {
+  margin: 20px auto;
+}
+
+.col {
+  margin: 10px auto;
+}
+
+/* ID */
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  height: 270px;
+}
+
+.cta-h3 {
+  margin-bottom: 5px;
+  padding: 50px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.download-button-cta {
+  margin: 5px 10px 50px;
+}
+
+/* FOOTER */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  height: 100px;
+}
+
+.footer-icon {
+  margin: 10px 5px 30px;
+}
+
+.footer-icon:hover {
+  color: #8f8f8f;
+}
+
+/* MEDIA */
+
+@media (max-width: 1028px) {
+  .img-phone {
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
